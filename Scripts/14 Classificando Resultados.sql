@@ -35,5 +35,5 @@ FROM
 -- Quantidade de notas fiscais por ano
 SELECT YEAR(DATA) AS 'ANO', COUNT(*) AS 'Quantidade Notas' FROM [NOTAS FISCAIS] GROUP BY YEAR(DATA)
 
--- Quantidade de notas fiscais por data
+-- Quantidade de notas fiscais por data 
 SELECT DATA, COUNT(*) AS 'Quantidade de Notas' FROM [NOTAS FISCAIS] GROUP BY DATA
